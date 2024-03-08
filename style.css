@@ -1,0 +1,13 @@
+body {
+    background-color: lightblue;
+    padding: 50px; /* Optional: Add padding to the rectangle */
+  }
+  
+  .blue_section {
+    background-color: blue;
+  }
+  
+  .green_section {
+    background-color: green;
+  }
+  
