@@ -12,8 +12,11 @@ if(empty($_POST["name"]) || empty($_POST["password"])){
 $user = new User(1, $_POST['name'], $_POST['password']);
 
 echo $user;
+echo password_hash("password", PASSWORD_BCRYPT, []);
 
 $name = $_POST['name'];
+
+
 echo "You ar logged as $name"; 
 
 $connection = DBC::getInstance()->getConnection();
